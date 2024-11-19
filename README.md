@@ -23,4 +23,4 @@ Sobre a solução: o GoCycle é um aplicativo inovador que combina tecnologia de
 
 Roboflow: [Solar Panel Detection](https://universe.roboflow.com/melissa-y6dfd/solar-panel-detection-bdmpc)
 
-Vídeo: [GS - Energia Sustentável](youtube.com)
+Vídeo: [GS - Energia Sustentável](https://www.youtube.com/)
