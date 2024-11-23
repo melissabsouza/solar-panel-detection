@@ -2,7 +2,7 @@
 
 Melissa Barbosa de Souza - 552535 \
 Alissa Silva Cezero - 553954 \
-Nicolas Paiffer do Carmo - 554145 \
+Nicolas Paiffer do Carmo - 554145 
 
 
 ## SOLAR PANEL DETECTION 
