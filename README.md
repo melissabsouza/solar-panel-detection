@@ -32,4 +32,4 @@ Repositório: [Github](https://github.com/melissabsouza/solar-panel-detection)
 
 Roboflow: [Solar Panel Detection](https://universe.roboflow.com/melissa-y6dfd/solar-panel-detection-bdmpc)
 
-Vídeo: [GS - Energia Sustentável]()
+Vídeo: [GS - Energia Sustentável](https://youtu.be/2qgdCgLdqCU)
