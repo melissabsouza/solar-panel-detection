@@ -1,35 +1,45 @@
-2TDSPA
+# 🌞 **Solar Panel Detection - 2TDSPA**
 
-Melissa Barbosa de Souza - 552535 \
-Alissa Silva Cezero - 553954 \
-Nicolas Paiffer do Carmo - 554145 
+### Melissa Barbosa de Souza - 552535  
+### Alissa Silva Cezero - 553954  
+### Nicolas Paiffer do Carmo - 554145  
 
+---
 
-## SOLAR PANEL DETECTION 
+## 💡 Sobre o Projeto
 
+Este projeto integra **visão computacional e sustentabilidade** para melhorar a manutenção de placas solares usadas no carregamento de bicicletas elétricas.
 
-O modelo de visão computacional detecta a situação da placa solar. O projeto contém 5 classes: 
-- clean (limpo);
-- dusty (sujo);
-- bird drop (dejetos de pássaro); 
-- electrical damage (problemas elétricos);
-- physical damage (problemas físicos);
+A ideia é simples e inteligente: bicicletas elétricas distribuídas em locais estratégicos da cidade (estações de metrô, avenidas, etc) são carregadas por energia solar. Para manter esse sistema funcionando perfeitamente, criamos um modelo que **detecta problemas nas placas solares**, otimizando o processo de manutenção.
 
-A ferramenta escolhida foi o Roboflow, pois ela facilita o processo de annotation/classificação de imagens e o uso do modelo fora da plataforma, podendo ser utilizado por API, por exemplo. 
+---
 
+## 🔍 O que o modelo faz
 
+Nosso modelo de visão computacional classifica imagens de placas solares em **cinco categorias**:
 
-A proposta é criar uma plataforma sustentável que incentiva o uso de bicicletas elétricas, recompensando os usuários a cada hora de utilização com pontos que podem ser trocados por benefícios. A ideia é que o as bicicletas fiquem disponiveis pela cidade, perto de estações de metrô, ruas e avenidas movimentadas, e essas bicicletas seriam carregadas através de energia solar. Então, o modelo ajudaria na identificação de possíveis problemas que podem acontecer com a placa solar, e assim, fazer o controle das quais precisam de manutenção.
+- ✅ **Clean** — Placa limpa e funcional  
+- 🌫️ **Dusty** — Placa suja  
+- 🐦 **Bird Drop** — Dejetos de pássaros  
+- ⚡ **Electrical Damage** — Danos elétricos  
+- 🔧 **Physical Damage** — Danos físicos (rachaduras, quebras, etc)
 
-Sobre a solução: o GoCycle é um aplicativo inovador que combina tecnologia de ponta e sustentabilidade para transformar a forma como nos deslocamos. Com foco em mobilidade inteligente, ele oferece uma experiência prática, sustentável e recompensadora, conectando usuários a bicicletas elétricas em um sistema de aluguel intuitivo. Além de incentivar o uso de energias renováveis, o GoCycle permite que cada hora de uso seja convertida em pontos, que podem ser trocados por benefícios exclusivos. É muito mais do que apenas um app de mobilidade: é um passo em direção a um futuro mais verde e consciente, onde tecnologia e responsabilidade ambiental andam lado a lado.
+Utilizamos o **Roboflow** para anotação, treinamento e exportação do modelo. Ele permite fácil integração via API, o que facilita o uso em aplicações reais.
 
+---
 
-<BR>
+## 🌱 Conexão com o GoCycle
 
-# LINKS
+Este projeto complementa o **GoCycle**, uma aplicação de aluguel de bicicletas elétricas que:
 
-Repositório: [Github](https://github.com/melissabsouza/solar-panel-detection)
+- Incentiva o uso de energia limpa  
+- Recompensa os usuários com pontos a cada hora de uso  
+- Usa placas solares para carregar os veículos  
 
-Roboflow: [Solar Panel Detection](https://universe.roboflow.com/melissa-y6dfd/solar-panel-detection-bdmpc)
+O modelo de detecção entra como **suporte à manutenção do sistema**, ajudando a identificar placas danificadas e garantindo a eficiência da infraestrutura energética.
 
-Vídeo: [GS - Energia Sustentável](https://youtu.be/2qgdCgLdqCU)
+---
+
+## 🔗 Links Importantes
+
+- 🧠 **Modelo Roboflow**: [Solar Panel Detection](https://universe.roboflow.com/melissa-y6dfd/solar-panel-detection-bdmpc)  
